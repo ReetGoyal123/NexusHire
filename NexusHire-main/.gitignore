@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Runtime artifacts
+*.wav
+interview_transcript.txt
+
+# Editors
+.vscode/
+
+# Virtual environments
+venv/
+.venv/
+myenv/

@@ -1,0 +1,12 @@
+# Pins Streamlit's own base theme to light, matching styles/theme.py's
+# "Slate & Teal" palette. Without this, Streamlit defaults to following the
+# browser/OS color-scheme preference — on a system in dark mode, its native
+# dark-theme text color (near-white) was winning wherever our CSS didn't
+# explicitly set a color, making text invisible against our light surfaces.
+[theme]
+base = "light"
+primaryColor = "#0f766e"
+backgroundColor = "#f7f8fa"
+secondaryBackgroundColor = "#eef0f2"
+textColor = "#1a1f2b"
+font = "sans serif"
